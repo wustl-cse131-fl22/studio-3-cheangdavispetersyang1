@@ -20,7 +20,7 @@ public class Sieve {
 			{
 				if (prime [i] != 1)
 				{
-					for (int j = i ; j <= n ; j = j + i)
+					for (int j = i+i ; j <= n ; j = j + i)
 					{
 						prime [j] = 1;
 					}
